@@ -1,0 +1,20 @@
+# Core Libraries
+streamlit
+PyMuPDF
+requests
+
+# LangChain Ecosystem - Aligned versions
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+
+# Vector Embeddings + DB
+sentence-transformers
+chromadb
+
+# LLM Wrapper
+pydantic
+
+# Optional
+python-dotenv

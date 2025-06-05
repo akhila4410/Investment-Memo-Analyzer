@@ -7,7 +7,7 @@ from langchain.llms.base import LLM
 class GroqLLM(LLM, BaseModel):
     model: str = "llama3-8b-8192"
     temperature: float = 0.1
-    groq_api_key: Optional[str] = "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"
+    groq_api_key: Optional[str] = "API key "
 
     @model_validator(mode="after")
     def check_api_key(self):
